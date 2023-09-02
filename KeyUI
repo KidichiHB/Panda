@@ -87,7 +87,7 @@ function Library:new(options)
         EnterKey["_EnterBox"].PlaceholderText = "Enter Key"
         EnterKey["_EnterBox"].Text = ""
         EnterKey["_EnterBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
-        EnterKey["_EnterBox"].TextSize = 17
+        EnterKey["_EnterBox"].TextSize = 14
         EnterKey["_EnterBox"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
         EnterKey["_EnterBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
         EnterKey["_EnterBox"].BorderSizePixel = 0
@@ -95,6 +95,8 @@ function Library:new(options)
         EnterKey["_EnterBox"].Size = UDim2.new(0, 295, 0, 39)
         EnterKey["_EnterBox"].Name = "EnterBox"
         EnterKey["_EnterBox"].Parent = Converted["_base"]
+        EnterKey["_EnterBox"].TextWrapped = true
+        EnterKey["_EnterBox"].ClearTextOnFocus = false
         EnterKey["_EnterBox"].TextWrapped = true
 
         function EnterKey:SetText(text)
