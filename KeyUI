@@ -112,7 +112,7 @@ function Library:new(options)
             end
         end)
     
-        return EnterKey  -- Return the EnterKey object
+        return EnterKey
     end
 
     function Converted:GetKeyButton(callback)
