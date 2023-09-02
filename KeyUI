@@ -87,7 +87,7 @@ function Library:new(options)
         EnterKey["_EnterBox"].PlaceholderText = "Enter Key"
         EnterKey["_EnterBox"].Text = ""
         EnterKey["_EnterBox"].TextColor3 = Color3.fromRGB(255, 255, 255)
-        EnterKey["_EnterBox"].TextSize = 12
+        EnterKey["_EnterBox"].TextSize = 8
         EnterKey["_EnterBox"].BackgroundColor3 = Color3.fromRGB(30.00000011175871, 30.00000011175871, 30.00000011175871)
         EnterKey["_EnterBox"].BorderColor3 = Color3.fromRGB(0, 0, 0)
         EnterKey["_EnterBox"].BorderSizePixel = 0
